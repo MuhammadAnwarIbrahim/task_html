@@ -1,0 +1,205 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:'Quicksand', sans-serif;
+}
+body {
+    background-color: turquoise;
+}
+
+footer {
+    margin: auto;/*supaya ke tengah*/
+    }
+
+.box-formulir {
+    width:50%;
+    margin: 100px auto;
+}
+.box-lanjut {
+    background-color: rgb(192, 157, 16);
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0 25px;
+}
+.box-form {
+    width: 100%;
+}
+.box-form tr td:nth-child(1){
+    width: 40%;
+}
+.pilih-inputan {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 5px 0;
+
+}
+.submitan {
+    padding: 12px 17px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.submitan:hover {
+    cursor: pointer;
+    background-color: rgb(1, 1, 24);
+
+}
+.box-cetak {
+    display: inline-block;
+    padding: 10px 17px;
+    color: cornsilk;
+    background-color: darkblue;
+    margin-top: 5px;
+}
+.box-tiket {
+    width: 100%;
+    margin-top: 10px;
+    background-color : white;
+}
+.box-tiket tr {
+    height: 30px;
+}
+.box-tiket tr td:nth-child(1){
+    width: 30%;
+}
+.main-login {
+    display: flex;
+    border: 1px solid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box-login {
+    width: 400px;
+    min-width: 200px;
+}
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.untuk-login {
+    padding: 7px 16px;
+    background-color: rgb(14, 14, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+
+}
+.untuk-login:hover {
+    cursor: pointer;
+    background-color: rgb(26, 5, 85);
+}
+header {
+    background-color: rgb(243, 160, 7);
+}
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header h1 {
+    padding: 15px 25px;
+    display: inline-block;
+    float: left;
+}
+header ul {
+    float: left;
+}
+header ul li {
+    padding: 24px 25px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.isi-halaman {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+.tabel-data {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(13, 13, 14);
+}
+.tabel-data tr {
+    height: 30px;
+}
+.tabel-data tr td {
+    padding: 5px 10px;
+}
+.tabel-data tr td:nth-child(1){
+    text-align: center;
+}
+.keterangan {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    justify-content: left;
+    color: rgb(243, 165, 9);
+    align-content: left;
+}
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+body {
+    min-height: 110vh;
+    background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+}
